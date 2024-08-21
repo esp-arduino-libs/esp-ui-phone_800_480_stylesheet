@@ -35,11 +35,12 @@ extern "C" {
         },                                                                  \
         .table = {                                                          \
             .default_num = 3,                                               \
-            .size = ESP_UI_STYLE_SIZE_RECT_W_PERCENT(100, 346),             \
+            .size = ESP_UI_STYLE_SIZE_RECT_W_PERCENT(100, 400),             \
         },                                                                  \
         .indicator = {                                                      \
-            .main_size = ESP_UI_STYLE_SIZE_RECT_W_PERCENT(100, 20),         \
+            .main_size = ESP_UI_STYLE_SIZE_RECT_W_PERCENT(100, 40),         \
             .main_layout_column_pad = 10,                                   \
+            .main_layout_bottom_offset = 0,                                 \
             .spot_inactive_size = ESP_UI_STYLE_SIZE_SQUARE(12),             \
             .spot_active_size = ESP_UI_STYLE_SIZE_RECT(30, 12),             \
             .spot_inactive_background_color = ESP_UI_STYLE_COLOR(0xC6C6C6), \
