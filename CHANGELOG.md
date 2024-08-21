@@ -5,7 +5,7 @@
 ### Enhancements:
 
 * feat(gesture): 'Gesture' use indicator bar
-* feat(stylesheet): enable 'Navigation Bar' adn use flex visual mode
+* feat(stylesheet): enable 'Navigation Bar' and use flex visual mode
 
 ## v0.1.0 - 2024-08-12
 
